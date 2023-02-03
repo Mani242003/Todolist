@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.appTittel{
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+.inputField{
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+
+  
+}
+
+.inputField>input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 400px;
+  font-size: 19px;
+
+}
+.inputField>button{
+  background-color: #20B4C4;
+  outline: none;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 3px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.itemsContainer{
+  min-height: 400px;
+  min-width: 400px;
+  margin-top: 3%;
+  border-radius: 5px;
+  padding: 10px 25px;
+  background-color: white;
+}
+.toDoItem{
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 1px;
+  margin: 10px 1px;
+  
+}
+.toDoItem>p{
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  
+}
+.toDoItem>button{
+  border: none;
+  outline: none;
+  padding: 5px 19px;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.noItemText{
+  color: grey;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 5%;
+}
+
+
+
+
+
